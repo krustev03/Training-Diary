@@ -1,0 +1,10 @@
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.Infrastructure\bin\Debug\netstandard2.1\TrainingDiary.Web.Infrastructure.deps.json
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.Infrastructure\bin\Debug\netstandard2.1\TrainingDiary.Web.Infrastructure.dll
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.Infrastructure\bin\Debug\netstandard2.1\TrainingDiary.Web.Infrastructure.pdb
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.Infrastructure\obj\Debug\netstandard2.1\TrainingDiary.Web.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.Infrastructure\obj\Debug\netstandard2.1\TrainingDiary.Web.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.Infrastructure\obj\Debug\netstandard2.1\TrainingDiary.Web.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.Infrastructure\obj\Debug\netstandard2.1\TrainingDiary.Web.Infrastructure.AssemblyInfo.cs
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.Infrastructure\obj\Debug\netstandard2.1\TrainingDiary.Web.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.Infrastructure\obj\Debug\netstandard2.1\TrainingDiary.Web.Infrastructure.dll
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.Infrastructure\obj\Debug\netstandard2.1\TrainingDiary.Web.Infrastructure.pdb

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "6SrbHH05A3BQbnc3PsEVQ8E9HmUkkXfwMoCgOnjl9e7mNDmNcx2KGLt+vAYXcr7WzfOSKs7IPD+jVbPJE5XKdQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LenovoE1\\Desktop\\Training Diary\\TrainingDiary.Common\\TrainingDiary.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LenovoE1\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
+    "C:\\Users\\LenovoE1\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512"
+  ],
+  "logs": []
+}

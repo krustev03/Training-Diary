@@ -1,0 +1,10 @@
+C:\Users\LenovoE1\Desktop\Training Diary\Services\TrainingDiary.Services\bin\Debug\netstandard2.1\TrainingDiary.Services.deps.json
+C:\Users\LenovoE1\Desktop\Training Diary\Services\TrainingDiary.Services\bin\Debug\netstandard2.1\TrainingDiary.Services.dll
+C:\Users\LenovoE1\Desktop\Training Diary\Services\TrainingDiary.Services\bin\Debug\netstandard2.1\TrainingDiary.Services.pdb
+C:\Users\LenovoE1\Desktop\Training Diary\Services\TrainingDiary.Services\obj\Debug\netstandard2.1\TrainingDiary.Services.csproj.AssemblyReference.cache
+C:\Users\LenovoE1\Desktop\Training Diary\Services\TrainingDiary.Services\obj\Debug\netstandard2.1\TrainingDiary.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LenovoE1\Desktop\Training Diary\Services\TrainingDiary.Services\obj\Debug\netstandard2.1\TrainingDiary.Services.AssemblyInfoInputs.cache
+C:\Users\LenovoE1\Desktop\Training Diary\Services\TrainingDiary.Services\obj\Debug\netstandard2.1\TrainingDiary.Services.AssemblyInfo.cs
+C:\Users\LenovoE1\Desktop\Training Diary\Services\TrainingDiary.Services\obj\Debug\netstandard2.1\TrainingDiary.Services.csproj.CoreCompileInputs.cache
+C:\Users\LenovoE1\Desktop\Training Diary\Services\TrainingDiary.Services\obj\Debug\netstandard2.1\TrainingDiary.Services.dll
+C:\Users\LenovoE1\Desktop\Training Diary\Services\TrainingDiary.Services\obj\Debug\netstandard2.1\TrainingDiary.Services.pdb

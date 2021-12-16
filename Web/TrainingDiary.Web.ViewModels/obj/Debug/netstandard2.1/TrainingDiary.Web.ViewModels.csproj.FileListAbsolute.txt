@@ -1,0 +1,17 @@
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.ViewModels\bin\Debug\netstandard2.1\TrainingDiary.Web.ViewModels.deps.json
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.ViewModels\bin\Debug\netstandard2.1\TrainingDiary.Web.ViewModels.dll
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.ViewModels\bin\Debug\netstandard2.1\TrainingDiary.Web.ViewModels.pdb
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.ViewModels\bin\Debug\netstandard2.1\TrainingDiary.Data.Common.dll
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.ViewModels\bin\Debug\netstandard2.1\TrainingDiary.Data.Models.dll
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.ViewModels\bin\Debug\netstandard2.1\TrainingDiary.Services.Mapping.dll
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.ViewModels\bin\Debug\netstandard2.1\TrainingDiary.Data.Models.pdb
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.ViewModels\bin\Debug\netstandard2.1\TrainingDiary.Services.Mapping.pdb
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.ViewModels\bin\Debug\netstandard2.1\TrainingDiary.Data.Common.pdb
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.ViewModels\obj\Debug\netstandard2.1\TrainingDiary.Web.ViewModels.csproj.AssemblyReference.cache
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.ViewModels\obj\Debug\netstandard2.1\TrainingDiary.Web.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.ViewModels\obj\Debug\netstandard2.1\TrainingDiary.Web.ViewModels.AssemblyInfoInputs.cache
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.ViewModels\obj\Debug\netstandard2.1\TrainingDiary.Web.ViewModels.AssemblyInfo.cs
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.ViewModels\obj\Debug\netstandard2.1\TrainingDiary.Web.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.ViewModels\obj\Debug\netstandard2.1\TrainingDiary.Web.ViewModels.csproj.CopyComplete
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.ViewModels\obj\Debug\netstandard2.1\TrainingDiary.Web.ViewModels.dll
+C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web.ViewModels\obj\Debug\netstandard2.1\TrainingDiary.Web.ViewModels.pdb

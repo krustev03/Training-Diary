@@ -26,6 +26,10 @@
 
         public DbSet<Setting> Settings { get; set; }
 
+        public DbSet<Exercise> Exercises { get; set; }
+
+        public DbSet<Training> Trainings { get; set; }
+
         public override int SaveChanges() => this.SaveChanges(true);
 
         public override int SaveChanges(bool acceptAllChangesOnSuccess)

@@ -4,11 +4,10 @@
     using System.Linq;
     using System.Threading.Tasks;
 
-    using TrainingDiary.Common;
-    using TrainingDiary.Data.Models;
-
     using Microsoft.AspNetCore.Identity;
     using Microsoft.Extensions.DependencyInjection;
+    using TrainingDiary.Common;
+    using TrainingDiary.Data.Models;
 
     internal class RolesSeeder : ISeeder
     {
