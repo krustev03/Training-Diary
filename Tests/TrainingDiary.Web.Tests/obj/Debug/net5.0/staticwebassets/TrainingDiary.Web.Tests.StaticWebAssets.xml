@@ -1,4 +1,0 @@
-﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/Identity" Path="C:\Users\LenovoE1\.nuget\packages\microsoft.aspnetcore.identity.ui\5.0.6\staticwebassets\V4\" />
-  <ContentRoot BasePath="_content/TrainingDiary.Web" Path="C:\Users\LenovoE1\Desktop\Training Diary\Web\TrainingDiary.Web\wwwroot\" />
-</StaticWebAssets>
