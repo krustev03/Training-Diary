@@ -6,6 +6,6 @@
 
         public const string AdministratorRoleName = "Administrator";
 
-        public const string Test = "Test";
+        public const string Test = "Teest";
     }
 }
