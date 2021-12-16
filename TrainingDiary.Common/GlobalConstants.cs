@@ -5,5 +5,7 @@
         public const string SystemName = "TrainingDiary";
 
         public const string AdministratorRoleName = "Administrator";
+
+        public const string Test = "Test";
     }
 }
