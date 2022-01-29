@@ -1,9 +1,34 @@
-﻿@using TrainingDiary.Common
+﻿@model TrainingDiary.Web.ViewModels.Home.Date
+
+@using TrainingDiary.Common;
+@using TrainingDiary.Data.Models
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
 @{
     this.ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome to @GlobalConstants.SystemName!</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    @if (this.SignInManager.IsSignedIn(this.User))
+    {
+        <form method="get" asp-controller="Home" asp-action="SearchDate">
+            <div>
+                 <input asp-for="@Model.Name" value="@DateTime.Now.ToString("yyyy-MM-ddThh:mm")" />
+            </div>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    }
+    else
+    {
+        <p>Please log in or register.</p>
+    }
 </div>
+
+@section Scripts {
+     <script>
+        $(function () {
+            $("#datepicker").datepicker();
+        });
+    </script>
+}
