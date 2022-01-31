@@ -1,4 +1,4 @@
-﻿@model TrainingDiary.Web.ViewModels.Home.Date
+﻿@model TrainingDiary.Web.ViewModels.Trainings.SearchTrainingViewModel
 
 @using TrainingDiary.Common;
 @using TrainingDiary.Data.Models
@@ -12,11 +12,11 @@
     <h1 class="display-4">Welcome to @GlobalConstants.SystemName!</h1>
     @if (this.SignInManager.IsSignedIn(this.User))
     {
-        <form method="get" asp-controller="Home" asp-action="SearchDate">
+        <form method="post" asp-controller="Home" asp-action="SearchTraining">
             <div>
-                 <input asp-for="@Model.Name" value="@DateTime.Now.ToString("yyyy-MM-ddThh:mm")" />
+                 <input asp-for="@Model.Date" name="date" value="@DateTime.Now" />
             </div>
-            <button type="submit" id="submit">Submit</button>
+            <button type="submit" id="submit">Search</button>
         </form>
     }
     else

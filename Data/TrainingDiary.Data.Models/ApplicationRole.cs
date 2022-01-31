@@ -3,9 +3,8 @@ namespace TrainingDiary.Data.Models
 {
     using System;
 
-    using TrainingDiary.Data.Common.Models;
-
     using Microsoft.AspNetCore.Identity;
+    using TrainingDiary.Data.Common.Models;
 
     public class ApplicationRole : IdentityRole, IAuditInfo, IDeletableEntity
     {

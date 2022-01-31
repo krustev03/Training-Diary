@@ -331,9 +331,14 @@ namespace TrainingDiary.Data.Migrations
                     b.Property<DateTime?>("ModifiedOn")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("IsDeleted");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Trainings");
                 });
@@ -400,6 +405,15 @@ namespace TrainingDiary.Data.Migrations
                     b.Navigation("Training");
                 });
 
+            modelBuilder.Entity("TrainingDiary.Data.Models.Training", b =>
+                {
+                    b.HasOne("TrainingDiary.Data.Models.ApplicationUser", "User")
+                        .WithMany("Trainings")
+                        .HasForeignKey("UserId");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("TrainingDiary.Data.Models.ApplicationUser", b =>
                 {
                     b.Navigation("Claims");
@@ -407,6 +421,8 @@ namespace TrainingDiary.Data.Migrations
                     b.Navigation("Logins");
 
                     b.Navigation("Roles");
+
+                    b.Navigation("Trainings");
                 });
 
             modelBuilder.Entity("TrainingDiary.Data.Models.Training", b =>

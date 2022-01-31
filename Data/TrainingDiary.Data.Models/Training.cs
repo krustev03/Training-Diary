@@ -12,6 +12,10 @@
             this.Exercises = new HashSet<Exercise>();
         }
 
+        public string UserId { get; set; }
+
+        public ApplicationUser User { get; set; }
+
         public DateTime Date { get; set; }
 
         public virtual ICollection<Exercise> Exercises { get; set; }
