@@ -1,0 +1,21 @@
+﻿@model TrainingDiary.Web.ViewModels.Trainings.TrainingViewModel;
+
+@{
+    this.ViewData["Title"] = "Training";
+    int trainingId = Convert.ToInt16(this.ViewContext.HttpContext.Request.Query["trainingId"]);
+}
+
+<div>
+    @if (trainingId != 0)
+    {
+        <h3>12 jan</h3>
+        @*@foreach (var exercise in Model.Exercises)
+        {
+            <p>@exercise.Description</p>
+        }*@
+    }
+    else
+    {
+        <p>Training Not Found.</p>
+    }
+</div>
