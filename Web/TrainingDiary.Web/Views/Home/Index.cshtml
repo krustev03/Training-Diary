@@ -14,7 +14,7 @@
     {
         <form method="post" asp-controller="Home" asp-action="SearchTraining">
             <div>
-                 <input asp-for="@Model.Date" name="date" value="@DateTime.Now" />
+                 <input asp-for="@Model.Date" name="date" />
             </div>
             <button type="submit" id="submit">Search</button>
         </form>

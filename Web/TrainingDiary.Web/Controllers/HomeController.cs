@@ -49,14 +49,14 @@
         {
             var appUser = await this.userManager.GetUserAsync(this.User);
 
-            var training = this.trainingService.GetTraining<TrainingViewModel>(model.Date, appUser.Id);
+            var training = this.trainingService.GetTrainingByDateAndUser<TrainingViewModel>(model.Date, appUser.Id);
 
             if (training == null)
             {
-                return this.RedirectToAction("FilteredTraining", "Trainings", new { trainingId = 0 });
+                return this.RedirectToAction("Filtered", "Trainings", new { trainingId = 0 });
             }
 
-            return this.RedirectToAction("FilteredTraining", "Trainings", new { trainingId = training.Id });
+            return this.RedirectToAction("Filtered", "Trainings", new { trainingId = training.Id });
         }
     }
 }

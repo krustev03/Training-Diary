@@ -8,14 +8,15 @@
 <div>
     @if (trainingId != 0)
     {
-        <h3>12 jan</h3>
-        @*@foreach (var exercise in Model.Exercises)
+        <h3>@Model.Date.ToString()</h3>
+        @foreach (var exercise in Model.Exercises)
         {
             <p>@exercise.Description</p>
-        }*@
+        }
     }
     else
     {
         <p>Training Not Found.</p>
+        <a class="btn btn-orange w-25 add-item" role="button" asp-area="" asp-controller="Trainings" asp-action="Add">Add Training</a>
     }
 </div>
