@@ -6,9 +6,9 @@
 
 <h2 class="text-white form-heading-2">Add Training</h2>
 <form method="post" asp-action="Add" asp-controller="Trainings">
-    <div>
-        <input asp-for="@Model.Date" name="date" />
+    <div class="form-group">
+        <input type="date" class="form- control" asp-for="@Model.Date" name="date" />
         <span asp-validation-for="@Model.Date" class="text-danger"></span>
     </div>
-    <button type="submit" id="submit">Submit</button>
+    <button type="submit" id="submit">Add</button>
 </form>

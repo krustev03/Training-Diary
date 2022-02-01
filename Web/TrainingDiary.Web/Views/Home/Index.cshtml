@@ -13,8 +13,9 @@
     @if (this.SignInManager.IsSignedIn(this.User))
     {
         <form method="post" asp-controller="Home" asp-action="SearchTraining">
-            <div>
-                 <input asp-for="@Model.Date" name="date" />
+            <div class="form-group">
+                 <input type="date" class="form- control" asp-for="@Model.Date" name="date" />
+                 <span asp-validation-for="@Model.Date" class="text-danger"></span>
             </div>
             <button type="submit" id="submit">Search</button>
         </form>
@@ -24,11 +25,3 @@
         <p>Please log in or register.</p>
     }
 </div>
-
-@section Scripts {
-     <script>
-        $(function () {
-            $("#datepicker").datepicker();
-        });
-    </script>
-}

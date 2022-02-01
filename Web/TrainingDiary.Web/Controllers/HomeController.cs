@@ -49,6 +49,8 @@
         {
             var appUser = await this.userManager.GetUserAsync(this.User);
 
+            var fixedDate = model.Date.Date;
+
             var training = this.trainingService.GetTrainingByDateAndUser<TrainingViewModel>(model.Date, appUser.Id);
 
             if (training == null)
