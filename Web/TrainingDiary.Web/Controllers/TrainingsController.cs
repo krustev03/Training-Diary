@@ -72,9 +72,9 @@
                 return this.View(model);
             }
 
-            //var training = this.trainingService.GetTrainingByDateAndUser<TrainingViewModel>(model.Date, appUser.Id);
+            var training = this.trainingService.GetTrainingByDateAndUser<TrainingViewModel>(model.Date, appUser.Id);
 
-            return this.RedirectToAction("Index", "Home");
+            return this.RedirectToAction("Filtered", "Trainings", new { trainingId = training.Id });
         }
     }
 }

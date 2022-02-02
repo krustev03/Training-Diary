@@ -1,0 +1,15 @@
+﻿@model TrainingDiary.Web.ViewModels.Exercises.CreateExerciseInputModel
+
+@{ 
+    this.ViewData["Title"] = "Add Exercise";
+    int trainingId = Convert.ToInt16(this.ViewContext.HttpContext.Request.Query["trainingId"]);
+}
+
+<h2 class="text-white form-heading-2">Add Exercise</h2>
+<form method="post" asp-action="Add" asp-route-trainingId="@trainingId" asp-controller="Exercises">
+    <div class="form-group">
+        <input type="text" class="form- control" asp-for="@Model.Description" name="description" />
+        <span asp-validation-for="@Model.Description" class="text-danger"></span>
+    </div>
+    <button type="submit" id="submit">Add</button>
+</form>
